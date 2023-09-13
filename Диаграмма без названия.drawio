@@ -1,9 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T14:43:49.709Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.7.5" etag="RcUatsy9JCeLiNU6gOuC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T15:09:47.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sLD11zOB44bcVteqjdKP" version="21.7.5" type="github">
   <diagram name="Страница — 1" id="f2ejWZi2phrKguzAVBuH">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uGTdyqaxyatmraVnBxuw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-1" target="uGTdyqaxyatmraVnBxuw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-1" value="Начало" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-2" target="uGTdyqaxyatmraVnBxuw-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-2" value="Собрать требований" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="210" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-3" target="uGTdyqaxyatmraVnBxuw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-3" value="Вводные данные от&lt;br&gt;&amp;nbsp;заказчика/РП о требуемой&lt;br&gt;&amp;nbsp;доработке" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="319" y="110" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-4" target="uGTdyqaxyatmraVnBxuw-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-19" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uGTdyqaxyatmraVnBxuw-10">
+          <mxGeometry x="-0.6635" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-4" target="uGTdyqaxyatmraVnBxuw-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-45" value="Да" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uGTdyqaxyatmraVnBxuw-31">
+          <mxGeometry x="0.5294" y="-2" relative="1" as="geometry">
+            <mxPoint x="-12" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-4" value="Требования согласованы заказчиком?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="529.5" width="114" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-7" target="uGTdyqaxyatmraVnBxuw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-7" value="Описать функциональны и нефункциональных требований" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="340" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-8" target="uGTdyqaxyatmraVnBxuw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-8" value="ФТ и НФТ, описание&lt;br&gt;&amp;nbsp;процесса AS IS,&lt;br&gt;бизнес-контекста" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="319" y="430" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-16" target="uGTdyqaxyatmraVnBxuw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-16" value="Протокол встречи" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="319" y="280" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-17" target="uGTdyqaxyatmraVnBxuw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-17" value="Доработать требования" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="452.5" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-27" value="Описать способ реализации ФТ и НФТ (ТЗ на доработку)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="660" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="uGTdyqaxyatmraVnBxuw-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-30" target="uGTdyqaxyatmraVnBxuw-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-30" value="Согласовать ТЗ с разработчиком и тетстировщиком" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="750" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-44" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="uGTdyqaxyatmraVnBxuw-41">
+          <mxGeometry x="0.0875" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-36" target="uGTdyqaxyatmraVnBxuw-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-36" value="ТЗ &lt;br&gt;согласовано разработчиком &lt;br&gt;и QA?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="820" width="114" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-40" target="uGTdyqaxyatmraVnBxuw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-40" value="Доработка ТЗ" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="857.5" width="150" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-46" target="uGTdyqaxyatmraVnBxuw-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-46" value="&amp;nbsp;Задача в JIRA под&lt;br&gt;&amp;nbsp;каждый раздел ТЗ" style="shape=parallelogram;html=1;strokeWidth=1;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1020" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uGTdyqaxyatmraVnBxuw-47" target="uGTdyqaxyatmraVnBxuw-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-47" value="Декомпозировать ТЗ на задачи" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="950" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uGTdyqaxyatmraVnBxuw-50" value="Конец" style="strokeWidth=4;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1090" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
